@@ -1,0 +1,27 @@
+{
+  "name": "gameblockly-app",
+  "version": "0.0.1",
+  "description": "The Gameblockly client",
+  "keywords": [
+    "visual",
+    "programming",
+    "blockly",
+    "game",
+    "engine"
+  ],
+  "homepage": "https://github.com/Gameblockly/app#readme",
+  "bugs": {
+    "url": "https://github.com/Gameblockly/app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gameblockly/app.git"
+  },
+  "license": "ISC",
+  "author": "The Gameblockly authors",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
