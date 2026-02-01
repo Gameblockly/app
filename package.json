@@ -29,5 +29,19 @@
   },
   "dependencies": {
     "electron": "^40.1.0"
+  },
+  "build": {
+    "appId": "com.velcro3.gameblockly.app",
+    "productName": "Gameblockly Client",
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "mac": {"target": "dmg"},
+    "win": {"target": "nsis"},
+    "linux": {"target": "AppImage"}
   }
 }
